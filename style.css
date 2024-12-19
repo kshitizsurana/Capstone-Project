@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #F5F5EF;
+    ;
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header {
+    background-color: #F5F5EF;
+    padding: 10px 48px;
+
+  }
+
+  .divider{
+    width: 100%;
+    border: 1px solid #17340929;
+  }
+
+  .logo p{
+  font-family: 'Syne';
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: -0.04rem;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
+  .nav-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-family: 'Cutive';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01rem;
+  }
+
+  .card{
+    background-color: #F5F5EF;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    border-bottom: 2px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  img{
+    width: 100%;
+    border-radius: 22px;
+    border:2px;
+
+  }
+
+  .Project_Text p{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01rem;
+    font-family: 'Cutive';
+    text-align: center;
+    width: 900px;
+    height: 260px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 35%;
+  }
+
+
+  
+  
+  header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  main .paaji {
+    text-align: center;
+    padding: 48px;
+    gap: 48px;
+    
+  }
+  
+  main .paaji h2 {
+    font-family: 'Cutive';
+    font-size: 120px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02rem;
+    text-align: center;
+
+    
+  }
+  
+  main .paaji .image-container img {
+    width: 100%;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    padding: 48px 0;
+  }
+  
+  .projects .project {
+    gap: 12px;
+  }
+  
+  .projects .project img {
+    border:2px ;
+    align-items: center;
+  }
+  .projects .project p {
+    font-family:'Kumbh Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .projects .project p span{
+    font-family:'Kumbh Sans';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1D221B9E;
+  }
+  
+  .contact {
+
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px;
+    border-bottom: 2px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact h3{
+    font-family: 'Cutive';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    margin-left: -450px;
+    letter-spacing: -0.01rem;
+  }
+  .table{
+    gap:48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    width:900px;
+    height:160px;
+  }
+  
+  footer {
+    display: flex;
+    background-color: #F5F5EF;
+    border-top: 2px;
+    padding-top: 96px;
+    padding-bottom: 24px;
+    gap: 24px;
+    justify-content: space-between;
+  }
+  footer p{
+    font-family: 'Cutive';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01rem;
+    color:#1D221B9E;
+    margin-left: 100px;
+  }
+  footer #Contact{
+    font-family: 'Kumbh Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D221B;
+    margin-right: 100px;
+
+  }
