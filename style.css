@@ -73,7 +73,7 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding-left: 20%;
+    padding-left: 27%;
   }
 
 
@@ -164,7 +164,7 @@ body {
     overflow-x: auto;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    -ms-overflow-style: none;
+    /* -ms-overflow-style: none; */
     padding-bottom: 1rem;
 }
 
@@ -175,9 +175,12 @@ body {
 .testimonial-card {
     min-width: 18rem;
     padding: 1.5rem;
-    border: 2px solid var(--color-white-24);
+    border: 2px solid ;
     border-radius: 1rem;
     transition: transform 0.3s ease;
+    background-color: #DADACA66;
+    ;
+
 }
 
 .testimonial-card:hover,
@@ -218,6 +221,11 @@ body {
     font-family: 'Inria Sans', sans-serif;
     font-size: 1.25rem;
     line-height: 1.2;
+} 
+.border-last{
+  width: 1536px;
+  border: 2px 0px 0px 0px;
+  border: 2px solid #17340929
 }
   .contact {
 
